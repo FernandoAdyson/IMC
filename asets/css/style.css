@@ -59,15 +59,15 @@ p#femp {
 }
 @font-face {
   font-family: 'Ber';
-  src: url(/asets/fonts/BERNHC.TTF);
+  src: url(../fonts/BERNHC.TTF);
 }
 @font-face {
   font-family: 'Bau';
-  src: url(/asets/fonts/BAUHS93.TTF);
+  src: url(../fonts/BAUHS93.TTF);
 }
 @font-face {
   font-family: 'Show';
-  src: url(/asets/fonts/SHOWG.TTF);
+  src: url(../fonts/SHOWG.TTF);
 }
 .genero {
   font: bold 12pt Show;
