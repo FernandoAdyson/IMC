@@ -59,15 +59,15 @@ p#femp {
 }
 @font-face {
   font-family: 'Ber';
-  src: url(/projetoIMC/asets/fonts/BERNHC.TTF);
+  src: url(/asets/fonts/BERNHC.TTF);
 }
 @font-face {
   font-family: 'Bau';
-  src: url(/projetoIMC/asets/fonts/BAUHS93.TTF);
+  src: url(/asets/fonts/BAUHS93.TTF);
 }
 @font-face {
   font-family: 'Show';
-  src: url(/projetoIMC/asets/fonts/SHOWG.TTF);
+  src: url(/asets/fonts/SHOWG.TTF);
 }
 .genero {
   font: bold 12pt Show;
@@ -94,7 +94,7 @@ input#calcular {
 }
 
 body#background {
-  background-image: url(/projetoIMC/asets/img/pexels-lukas-952482.jpg);
+  background-image: url(/asets/img/pexels-lukas-952482.jpg);
   background-repeat: no-repeat;
   background-size: 3000px;
 }
