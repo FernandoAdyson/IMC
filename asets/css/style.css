@@ -94,7 +94,7 @@ input#calcular {
 }
 
 body#background {
-  background-image: url(../asets/imgs/pexels-lukas-952482.jpg);
+  background-image: url(/asets/imgs/pexels-lukas-952482.jpg);
   background-repeat: no-repeat;
   background-size: 3000px;
 }
