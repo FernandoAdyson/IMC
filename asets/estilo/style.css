@@ -3,6 +3,7 @@ header {
   font: bold 15pt Ber;
   text-align: center;
 }
+
 section {
   color: black;
   font: bold 14pt Ber;
@@ -14,6 +15,7 @@ section {
   text-align: center;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.356);
 }
+
 p#ida {
   margin-left: 12px;
 }
@@ -21,17 +23,22 @@ p#pes {
   margin-right: 10px;
 }
 
+div#calcularp{
+  margin-left: 24px;
+}
+
 input#tag2 {
   width: 60px;
   height: 30px;
   border-radius: 10px;
 }
+
 input#calcular {
   width: 80px;
   height: 30px;
-  top: -20px;
-  margin-left: 10px;
+  right: 20px;
 }
+
 p#fundo1 {
   border: 1px solid;
   background-color: aqua;
@@ -80,7 +87,7 @@ input#tag2 {
   margin-left: 0px;
 }
 p#pes {
-  margin-left: 16px;
+  margin-left: 16px;s
 }
 p#alt {
   margin-right: 2px;
