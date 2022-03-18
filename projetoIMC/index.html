@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculo IMC</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
+  </head>
+
+  <body id="background">
+    <header>
+      <h1>Calculo de IMC</h1>
+    </header>
+    <section>
+      <div id="quadrado">
+        <p>
+          <input type="radio" name="genero" id="masc" checked />
+          <label for="" class="genero" >Masculino</label>
+          <p id="fundo1"></p>
+        </p>
+        <p id="femp">
+            <input type="radio" name="genero" id="fem" ">
+            <label class="genero" for="">Feminino</label>
+            <p id="fundo2"></p>
+        </p>
+
+        <p id="ida">
+          <label id="tag1" for="">Idade: </label>
+          <input type="number" class="ida" name="tag2" id="tag2" placeholder="  00" />
+          <label id="tag3" for="">anos</label>
+        </p>
+
+        <p id="alt">
+          <label id="tag1" for="">Altura: </label>
+          <input type="number" step="0.01" class="alt" name="tag2" id="tag2" placeholder="  0,00" onclick="mask()"/>
+          <label id="tag3" for="">cm</label>
+        </p>
+        <p id="pes">
+          <label id="tag1" for="">Peso: </label>
+          <input type="number" class="pes" name="tag2" id="tag2" placeholder="  00" />
+          <label id="tag3" for="">kg</label>
+        </p>
+      </div>
+
+      <div>
+        <p>
+          <input id="calcular" type="button" value="Calcular" onclick="calcular()"  />
+        </p>
+      </div>
+
+      <div id="res">
+        Preencha os dados para aparecer o resultado!!
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
